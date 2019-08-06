@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("button").addEventListener("click", () => {
     let input = document.querySelector("#inputbox");
-    
+
     console.log(`you added ${input.value} to the input`);
-    
+
     secretHandshake(input.value);
   });
 });
